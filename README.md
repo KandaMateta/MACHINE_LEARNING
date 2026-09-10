@@ -1,89 +1,72 @@
-# Linear Regression with Gradient Descent
+# Machine Learning Homework Repository
 
 ## Overview
 
-This homework implements linear regression using the gradient descent algorithm.
+This repository contains my homework assignments for my Machine Learning course.
 
-The assignment is divided into two parts:
+Each homework is organized in its own folder and includes the source code, results, plots, and other files required for the assignment.
 
-- Part 1: Linear regression using X1, X2, and X3 separately.
-- Part 2: Multiple linear regression using X1, X2, and X3 together.
+The main programming language used in this repository is Python, with the assignments developed using Jupyter Notebook / Google Colab.
 
-Different learning rates were tested to observe their effects on convergence and final loss.
+## Repository Structure
 
----
+The repository will be organized as follows:
 
-## Part 1: Individual Linear Regression
+## Repository Structure
 
-Three models were trained independently:
+This repository is organized by homework assignment.
 
-### X1 Model
+- **Homework-1/**
+  - `Homework_1.ipynb` — Jupyter Notebook containing source code, results, and plots
+  - `Homework_1.pdf` — PDF version of the completed homework
+  - `README.md` — Description of Homework 1
 
-Y_hat = 5.7185 - 1.9568X1
+- **Homework-2/**
+  - Homework 2 files will be added here
 
-Final Cost:
+- **Homework-3/**
+  - Homework 3 files will be added here
 
-0.9906
+- **Homework-4/**
+  - Homework 4 files will be added here
 
-### X2 Model
+Additional homework folders will be added as the course progresses.
 
-Y_hat = 0.7199 + 0.5639X2
+## Homework Assignments
 
-### X3 Model
+### Homework 1 — Linear Regression with Gradient Descent
 
-Y_hat = 2.7805 - 0.4845X3
+This assignment focuses on implementing linear regression using the gradient descent algorithm.
 
-Different learning rates were tested:
+The assignment includes:
 
-- 0.1
-- 0.05
-- 0.025
-- 0.01
-
-The experiments showed that larger learning rates generally converged faster.
-A learning rate of 0.1 reached the stable loss in fewer iterations,
-while 0.01 required more iterations.
-
----
-
-## Part 2: Multiple Linear Regression
-
-All three explanatory variables were used together.
-
-The final model was:
-
-Y_hat = 5.1912 - 1.9863X1 + 0.5529X2 - 0.2476X3
-
-Best Final Cost:
-
-0.73927
-
-### Predictions
-
-For (X1, X2, X3) = (1, 1, 1):
-
-Y_hat = 3.5102
-
-For (X1, X2, X3) = (2, 0, 4):
-
-Y_hat = 0.2282
-
-For (X1, X2, X3) = (3, 2, 1):
-
-Y_hat = 0.0903
-
----
-
-## Source Code
-
-The complete Jupyter/Google Colab notebook in this repository contains:
-
-- Python source code
-- Gradient descent implementation
-- Cost function
-- Training results
-- Learning-rate experiments
-- Regression plots
-- Loss vs. iteration plots
+- Simple linear regression using individual explanatory variables
 - Multiple linear regression
-- Predictions
+- Gradient descent implementation
+- Cost function analysis
+- Learning-rate comparison
+- Loss versus iteration plots
+- Prediction using the trained model
+
+The complete source code, results, and plots are available in the Homework-1 folder.
+
+### Homework 2
+
+To be added.
+
+### Homework 3
+
+To be added.
+
+## Tools and Technologies
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- Google Colab
+
+## Purpose
+
+The purpose of this repository is to organize and document the programming assignments completed throughout the course. Each homework folder contains the files necessary to reproduce and review the work.
