@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32784847/README.md)
-
 # Homework 2: Housing Price Prediction
 
 ## Overview
