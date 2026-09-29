@@ -89,9 +89,8 @@ These plots made it easier to see how each model learned and whether the testing
 
 - `diabetes.csv` - diabetes dataset
 - `Cancer.csv` - breast cancer dataset
-- `HomeWork_3_Commented.ipynb` - complete commented notebook
-- `HomeWork_3_Commented.pdf` - PDF copy of the code and outputs
-- `Homework_3_Writeup.docx` - written report
+- `HomeWork_3` - Code notebook
+- `Homework_3_Report` - written report
 
 ## Requirements
 
